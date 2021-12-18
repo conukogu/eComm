@@ -111,5 +111,5 @@ margin:auto;
 padding-top: 70px;
 display: flex;
 flex-direction:column;
-background-image:linear-gradient(rgb(250, 128, 114, 1), rgba(237, 169, 237, 0.7)), url(tools.jpeg);
+background-image:linear-gradient(rgb(250, 128, 114, 1), rgba(237, 169, 237, 0.7)), url(img/contactpic.jpg);
 }
