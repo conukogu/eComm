@@ -55,7 +55,7 @@ nav{
 
 .outer-wrapper {
 left: 0%;
-flex: 1;;
+flex: 1;
 padding: 0;
 width:100vw;
 height: 100vh;
@@ -66,7 +66,7 @@ height: 100vh;
   padding-bottom: 55%;
   position: relative;
   border: 10px solid #fff;
-  background-color: #efefe8;
+  background-color: transparent;
   white-space:nowrap;
 }
 
@@ -91,33 +91,38 @@ height: 100vh;
   position: absolute;
   top:0%;
   left: 0;
-  width: 500%;
   height: 100%;
-  font-size: 0;
+  vertical-align: top;
   list-style: none;
   transition: transform 1s;
 }
 
+.s-content{
+  display: flex;
+  flex-direction: row;
+}
+
 
 .s-wrap .s-item{
-  display: inline-block;
   width: 20%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(0.7); 
   opacity: 0.5;
+  border-radius: 1em;
 }
 
 .s-item
-{
+{ 
+width: 100%;
+flex: 1 0 auto;
 margin-right:2.5%;
 }
 
 
 .s-wrap .s-item-1 {
   background-image: url(img/1.jpeg);
-  border-radius: 1.5em;
 }
 .s-wrap .s-item-2 {
   background-image: url(img/2.jpeg);
@@ -212,6 +217,7 @@ margin-right:2.5%;
 .s-type-1 #s-1:checked ~ ul li.s-item-1 {
   transform: scale(1);
   opacity: 1;
+  
 }
 .s-type-1 #s-1:checked ~ .s-control .s-c-1 {
   background-color: #333;
@@ -220,10 +226,6 @@ margin-right:2.5%;
   display: block;
 }
 .s-type-1 #s-2:checked ~ .s-content {
-  transform: translateX(-22.5%);
-}
-
-.s-type-1 #s-2:checked ~ .b-content {
   transform: translateX(-22.5%);
 }
 
