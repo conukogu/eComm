@@ -112,4 +112,7 @@ padding-top: 70px;
 display: flex;
 flex-direction:column;
 background-image:linear-gradient(rgb(250, 128, 114, 1), rgba(237, 169, 237, 0.7)), url(img/contactpic.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
