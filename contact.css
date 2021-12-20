@@ -104,15 +104,80 @@ border-radius: 0.5em;
 
 body
 {
-width:100%;
+min-width:100%;
 overflow: scroll;
 min-height: 100vh;
-margin:auto;
+margin:0;
 padding-top: 70px;
 display: flex;
 flex-direction:column;
-background-image:linear-gradient(rgb(250, 128, 114, 1), rgba(237, 169, 237, 0.7)), url(img/contactpic.jpg);
+background-image:linear-gradient(rgba(0, 0, 0, 1), rgba(245, 134, 152, 0.7), rgba(245, 134, 152, 0.7), rgba(245, 134, 152, 0.5), rgba(0, 0, 0, 1)), url(img/contactpic.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+
+
+
+
+footer
+{
+display: flex;
+padding: 2vw;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+}
+
+.copyR
+{
+width: 100%;
+text-align: left;
+padding-left: 1.2vw;
+
+}
+
+
+.social
+{
+color: whitesmoke;
+padding: 1vw;
+text-decoration: none;
+font-size: 2vw;
+}
+
+.social:hover
+{
+opacity: 0.5;
+}
+
+i.fa-circle-thin
+{
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:2px;
+paint-order: stroke;
+}
+
+.social
+{
+color: whitesmoke;
+text-decoration: none;
+font-size: 2vw;
+}
+
+.social:hover
+{
+opacity: 0.5;
+}
+
+i.fa-circle-thin
+{
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:2px;
+paint-order: stroke;
+}
+
+.copyR
+{
+  color: white;
+}    

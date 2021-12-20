@@ -51,12 +51,12 @@ nav{
   }
   
   #hero {
-    background-image: linear-gradient(to bottom, rgba(2245, 134, 152, 0.7), rgba(245, 134, 152, 0.3)), url(img/Hero.jpg);
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position-y: 15%;
-    z-index: -3;
+    background-image: linear-gradient(to bottom, rgba(245, 134, 152, 0.7), rgba(245, 134, 152, 0.3)), url(img/Hero.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 20%;
+  z-index: -3;
   }
   
   .container {
@@ -66,10 +66,4 @@ nav{
     padding: 25vh 0;
     text-align: center;
     width: 100%;
-  }
-  
-  @media screen and (-webkit-min-device-pixel-ratio: 2) {
-      #section-5:before {
-          background-attachment: scroll;
-      }
   }
