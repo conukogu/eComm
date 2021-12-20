@@ -134,9 +134,8 @@ align-items: center;
 width: 100%;
 text-align: left;
 padding-left: 1.2vw;
-
+color: white;
 }
-
 
 .social
 {
@@ -157,27 +156,3 @@ i.fa-circle-thin
 -webkit-text-stroke-width:2px;
 paint-order: stroke;
 }
-
-.social
-{
-color: whitesmoke;
-text-decoration: none;
-font-size: 2vw;
-}
-
-.social:hover
-{
-opacity: 0.5;
-}
-
-i.fa-circle-thin
-{
--webkit-text-stroke-color: black;
--webkit-text-stroke-width:2px;
-paint-order: stroke;
-}
-
-.copyR
-{
-  color: white;
-}    
