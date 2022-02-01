@@ -91,6 +91,7 @@ height: 100vh;
   position: absolute;
   top:0%;
   left: 0;
+  width: 500%;
   height: 100%;
   vertical-align: top;
   list-style: none;
@@ -111,7 +112,6 @@ height: 100vh;
   background-size: cover;
   transform: scale(0.7); 
   opacity: 0.5;
-  border-radius: 1em;
 }
 
 .s-item
@@ -417,7 +417,8 @@ align-items: center;
 {
 text-align: left;
 padding-left: 1.2vw;
-
+background-color: transparent;
+color:white;
 }
 
 
